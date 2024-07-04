@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import React from 'react'
+import LeftNav from './components/LeftNav'
+import Body from './components/Body'
+const App = () => {
   return (
-    <>
-      Hello
-    </>
+    <div className='bg-background  flex justify-between overflow-y-auto '>
+      <LeftNav />
+      <Body />
+    </div>
   )
 }
 
