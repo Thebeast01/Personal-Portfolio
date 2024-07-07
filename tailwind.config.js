@@ -19,7 +19,9 @@ export default {
 				'border-spin': 'border-spin 7s linear infinite',
 			},
 			colors: {
-				background: '#172A3A',
+				background: '#010323',
+				background2: '#171b4f',
+				cursor: '#181eff',
 			},
 			backgroundImage: {
 				profile: "url( 'src/assets/19362653.jpg' )",
