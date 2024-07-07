@@ -21,10 +21,13 @@ export default {
 			colors: {
 				background: '#010323',
 				background2: '#171b4f',
-				cursor: '#181eff',
+				cursor: '#5cfbff',
 			},
 			backgroundImage: {
 				profile: "url( 'src/assets/19362653.jpg' )",
+			},
+			boxShadow: {
+				outer: '0px -0.4px 4px #d1d0d0',
 			},
 		},
 	},

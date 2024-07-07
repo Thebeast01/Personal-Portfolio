@@ -44,15 +44,7 @@ const LeftNav = () => {
                                                         Projects
                                                 </Link>
                                         </div>{' '}
-                                        <div className='flex items-center gap-2 hover:scale-x-110  w-fit origin-left ease-in-out duration-150  '>
-                                                <div className=' w-14 relative   border-[1px] border-cyan border-[#7689ff]' />
-                                                <Link spy={true}
-                                                        smooth={true}
-                                                        duration={600}
-                                                        className='font-Mont text-sm sm:text-[1rem] uppercase text-[#7689ff]  hover:text-inherit cursor-pointer' to='skills'>
-                                                        Skills
-                                                </Link>
-                                        </div>
+
                                 </div>
                         </div>
                 </div>
